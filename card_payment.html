@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Secure Payment Portal</title>
+    </head>
+    <body>
+        <p>Please enter your card details here.</p>
+        <br>
+       <form action="#">
+           <fieldset>
+                <label for="fullname">Name On Card:</label>
+                <input type="text" id="fullname" name="name">
+           </fieldset>
+       </form>
+       <br>
+       <form>
+           <fieldset>
+               <label for="email">Email Address:</label>
+               <input type="email" id="email" name="email">
+           </fieldset>
+       </form> 
+       <br>
+       <form>
+           <fieldset>
+               <label for="cnum">Card Number:</label>
+               <input type="number" id="cnum" name="cnum">
+               <br>
+               <p>Expiration Date</p>
+               <label for="expmon">Expiration Month:</label>
+               <select name="expmon" id="expmon">
+                   <option value="jan">JAN</option>
+                   <option value="feb">FEB</option>
+                   <option value="mar">MAR</option>
+                   <option value="apr">APR</option>
+                   <option value="may">MAY</option>
+                   <option value="jun">JUN</option>
+                   <option value="jul">JUL</option>
+                   <option value="aug">AUG</option>
+                   <option value="sep">SEP</option>
+                   <option value="oct">OCT</option>
+                   <option value="nov">NOV</option>
+                   <option value="dec">DEC</option>
+               </select>
+               <label for="expday">Expiration Day:</label>
+               <textarea id="expday" name="expday" rows="1" cols="2"></textarea>
+               <br>
+               <label for="seccode">Security Code:</label>
+               <textarea id="seccode" name="seccode" rows="1" cols="3"></textarea>
+           </fieldset>
+       </form>
+    </body>
+</html>
